@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Swoosh/app/src/main/res/drawable/swoosh_button.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Swoosh/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Swoosh/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
       </map>
     </option>
   </component>
