@@ -4,13 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SkillActivity : AppCompatActivity() {
+class SkillActivity : BaseActivity() {
+
+    var league = ""
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_skill)
 
-
-        val skillActivity = Intent(this, SkillActivity::class.java)
-        startActivity(skillActivity)
+        league = intent.getStringExtra(EXTRA_LEAGUE).toString()
+        println(league)
     }
 }
